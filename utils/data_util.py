@@ -107,4 +107,4 @@ class DataUtils(object):
             plt.figure()
             plt.imshow(img, cmap = 'binary') #将图像黑白显示
             plt.savefig(self._outpath + "/" + outfile)
-
+            plt.close()
